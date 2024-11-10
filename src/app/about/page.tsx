@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
     return (
         <div className="justify-center bg-yellow-950 text-white py-10">
@@ -16,7 +18,7 @@ export default function About() {
                 <p className="mt-10 font-normal text-2xl"> I am a skilled Frontend Developer with a strong command of TypeScript and extensive experience working with Next.js. With a passion for building interactive, high-performance web applications, I focus on writing clean, scalable code and ensuring optimal user experiences. My expertise in these technologies allows me to craft seamless, responsive UIs while keeping performance and best practices at the forefront.</p>
          </div>
          <div className="w-1/2  ml-40 ">
-              <img src="image/pic2.webp" alt="" className="rounded-full h-96 "/>
+              <Image src="image/pic2.webp" alt="" className="rounded-full h-96 "/>
          </div>
          </div>
 
@@ -25,15 +27,15 @@ export default function About() {
             </div>
             <div className="flex justify-evenly items-center">
                 <div className=" p-8 shadow-2xl">
-                    <img src="/image/calculator.png" alt="" />
+                    <Image src="/image/calculator.png" alt="" />
                     <h4>calculator</h4>
                 </div>
                 <div className="p-8 shadow-2xl">
-                    <img src="/image/numberguessing.webp" alt="" className="h-56"/>
+                    <Image src="/image/numberguessing.webp" alt="" className="h-56"/>
                     <h4>Number guessing game</h4>
                 </div>
                 <div className="p-3 shadow-2xl ">
-                    <img src="/image/atm2.png" alt="" className="h-72 " />
+                    <Image src="/image/atm2.png" alt="" className="h-72 " />
                     <h4>Atm</h4>
                 </div>
             </div>

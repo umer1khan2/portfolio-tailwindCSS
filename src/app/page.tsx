@@ -15,7 +15,7 @@ export default function Home() {
       </button>
       </div>
       <div>
-       <img src="image/pic.jpg" alt="" className=" w-1/2 ml-40 mt-10 rounded-full" />
+       <Image src="image/pic.jpg" alt="" className=" w-1/2 ml-40 mt-10 rounded-full" />
       </div>
       </div>
     </main>

@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <nav className="flex justify-between pl-20 h-20 items-center bg-yellow-800 text-gray-50	">
                 <div>
-                    <h1 className="font-semibold text-3xl">Umer's Portfolio</h1>
+                    <h1 className="font-semibold text-3xl">Umer &apos;s Portfolio</h1>
                 </div>
 
                 <div>
